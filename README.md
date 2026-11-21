@@ -6,6 +6,8 @@
 
 Senior System Engineer focused on endpoint management (Intune/Entra), PKI, patch and vulnerability management, and SRE. I build open-source tools for admins.
 
+[**Website**](https://abbasi26.github.io/) · [**Writing**](https://abbasi26.github.io/posts/) · [**RSS**](https://abbasi26.github.io/index.xml)
+
 ## Open-source tools
 
 <table>
@@ -80,6 +82,19 @@ Eight MIT-licensed tools, each with a one-command offline demo.
 - [**specfreeze**](https://github.com/Abbasi26/specfreeze) — Freezes design decisions as a contract and rejects code that drifts.
   [![stars](https://img.shields.io/github/stars/Abbasi26/specfreeze)](https://github.com/Abbasi26/specfreeze/stargazers)
   [![release](https://img.shields.io/github/v/release/Abbasi26/specfreeze?label=release)](https://github.com/Abbasi26/specfreeze/releases/latest)
+
+## Writing
+
+One write-up per tool: the problem it solves, a demo you can run offline, and what it deliberately doesn't do. They're at [abbasi26.github.io/posts](https://abbasi26.github.io/posts/), and the [RSS feed](https://abbasi26.github.io/index.xml) has the full text.
+
+- [certclock: one timeline for every certificate](https://abbasi26.github.io/posts/certclock-one-timeline-for-every-certificate/)
+- [endpoint-quorum: when Intune, Entra ID and Defender disagree](https://abbasi26.github.io/posts/endpoint-quorum-when-intune-entra-and-defender-disagree/)
+- [grundschutz-check: Windows 11 against BSI IT-Grundschutz](https://abbasi26.github.io/posts/grundschutz-check-windows-11-against-bsi-grundschutz/)
+- [logsieve: one timeline for ConfigMgr, Intune and Windows logs](https://abbasi26.github.io/posts/logsieve-one-timeline-for-configmgr-intune-and-windows-logs/)
+- [patchorder: which CVEs hit the versions you run](https://abbasi26.github.io/posts/patchorder-which-cves-hit-the-versions-you-run/)
+- [runbook-rehearsal: dry-run your runbooks](https://abbasi26.github.io/posts/runbook-rehearsal-dry-run-your-runbooks/)
+- [secure-app-factory: pinned Win32 packaging for Intune](https://abbasi26.github.io/posts/secure-app-factory-pinned-win32-packaging-for-intune/)
+- [specfreeze: freeze the interface before the model writes code](https://abbasi26.github.io/posts/specfreeze-freeze-the-interface-before-the-model-writes-code/)
 
 ## Contact
 
