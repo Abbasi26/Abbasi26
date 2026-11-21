@@ -4,6 +4,8 @@ I build small, **read-only-by-default** tools for the unglamorous parts of IT op
 
 Every tool below is MIT-licensed, ships an **offline demo with fictional data** that runs in under a minute, sends no telemetry, and writes plain HTML / Markdown / JSON / CSV reports.
 
+[**Website**](https://abbasi26.github.io/) · [**Writing**](https://abbasi26.github.io/posts/) · [**RSS**](https://abbasi26.github.io/index.xml)
+
 ## Endpoint management (Intune / Entra ID / ConfigMgr)
 
 | Tool | What it does | Status |
@@ -26,6 +28,19 @@ Every tool below is MIT-licensed, ships an **offline demo with fictional data** 
 |---|---|---|
 | [**runbook-rehearsal**](https://github.com/Abbasi26/runbook-rehearsal) · Python | Dry-runs runbooks and flags stale reviews, dead contacts, 404s, missing files and broken scripts, with a freshness score. | [![release](https://img.shields.io/github/v/release/Abbasi26/runbook-rehearsal?label=release)](https://github.com/Abbasi26/runbook-rehearsal/releases/latest) [![CI](https://github.com/Abbasi26/runbook-rehearsal/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Abbasi26/runbook-rehearsal/actions/workflows/ci.yml) [![license](https://img.shields.io/github/license/Abbasi26/runbook-rehearsal)](https://github.com/Abbasi26/runbook-rehearsal/blob/main/LICENSE) |
 | [**specfreeze**](https://github.com/Abbasi26/specfreeze) · Python | Ask design questions first, freeze the interface contract, reject LLM-generated code that drifts from it. | [![release](https://img.shields.io/github/v/release/Abbasi26/specfreeze?label=release)](https://github.com/Abbasi26/specfreeze/releases/latest) [![CI](https://github.com/Abbasi26/specfreeze/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Abbasi26/specfreeze/actions/workflows/ci.yml) [![license](https://img.shields.io/github/license/Abbasi26/specfreeze)](https://github.com/Abbasi26/specfreeze/blob/main/LICENSE) |
+
+## Writing
+
+One write-up per tool: the problem it solves, a demo you can run offline, and what it deliberately doesnt do. Theyre at [abbasi26.github.io/posts](https://abbasi26.github.io/posts/), and the [RSS feed](https://abbasi26.github.io/index.xml) has the full text.
+
+- [certclock: one timeline for every certificate](https://abbasi26.github.io/posts/certclock-one-timeline-for-every-certificate/)
+- [endpoint-quorum: when Intune, Entra ID and Defender disagree](https://abbasi26.github.io/posts/endpoint-quorum-when-intune-entra-and-defender-disagree/)
+- [grundschutz-check: Windows 11 against BSI IT-Grundschutz](https://abbasi26.github.io/posts/grundschutz-check-windows-11-against-bsi-grundschutz/)
+- [logsieve: one timeline for ConfigMgr, Intune and Windows logs](https://abbasi26.github.io/posts/logsieve-one-timeline-for-configmgr-intune-and-windows-logs/)
+- [patchorder: which CVEs hit the versions you run](https://abbasi26.github.io/posts/patchorder-which-cves-hit-the-versions-you-run/)
+- [runbook-rehearsal: dry-run your runbooks](https://abbasi26.github.io/posts/runbook-rehearsal-dry-run-your-runbooks/)
+- [secure-app-factory: pinned Win32 packaging for Intune](https://abbasi26.github.io/posts/secure-app-factory-pinned-win32-packaging-for-intune/)
+- [specfreeze: freeze the interface before the model writes code](https://abbasi26.github.io/posts/specfreeze-freeze-the-interface-before-the-model-writes-code/)
 
 ## Principles
 
